@@ -1,4 +1,11 @@
+import ProductForm from '@/components/ProductForm'
+import { Input } from '@/components/ui/input'
+
 const page = () => {
-  return <div>page</div>
+  return (
+    <>
+      <ProductForm />
+    </>
+  )
 }
 export default page
